@@ -56,7 +56,7 @@ public class DatabaseService {
                 JSONObject record = new JSONObject();
 
                 for (int i = 0; i < columns.length(); i++) {
-                    String columnName = columns.getJSONObject(i).getString("nsame");
+                    String columnName = columns.getJSONObject(i).getString("name");
                     record.put(columnName, resultSet.getObject(columnName));
                 }
 
