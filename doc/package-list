@@ -1,0 +1,6 @@
+com.ataccama.homework
+com.ataccama.homework.model
+com.ataccama.homework.repository
+com.ataccama.homework.rest
+com.ataccama.homework.rest.exception
+com.ataccama.homework.service
